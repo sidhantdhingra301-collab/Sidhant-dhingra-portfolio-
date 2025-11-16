@@ -15,6 +15,9 @@ const initialState: ProjectsState = {
   plugdworks: { likes: 0, dislikes: 0, userAction: null },
   nurrabay: { likes: 0, dislikes: 0, userAction: null },
   arihant: { likes: 0, dislikes: 0, userAction: null },
+  aesthetic: { likes: 0, dislikes: 0, userAction: null },
+  professional: { likes: 0, dislikes: 0, userAction: null },
+  passion: { likes: 0, dislikes: 0, userAction: null },
 };
 
 const projectsSlice = createSlice({

@@ -12,6 +12,9 @@ import Works from "./pages/Works";
 import Contact from "./pages/Contact";
 import Portfolio from "./pages/Portfolio";
 import PhotoGallery from "./pages/PhotoGallery";
+import PhotoDetail1 from "./pages/PhotoDetail1";
+import PhotoDetail2 from "./pages/PhotoDetail2";
+import PhotoDetail3 from "./pages/PhotoDetail3";
 import Blog from "./pages/Blog";
 import NotFound from "./pages/NotFound";
 
@@ -32,6 +35,9 @@ const App = () => (
               <Route path="/contact" element={<Contact />} />
               <Route path="/portfolio" element={<Portfolio />} />
               <Route path="/photo-gallery" element={<PhotoGallery />} />
+              <Route path="/photo-detail-1" element={<PhotoDetail1 />} />
+              <Route path="/photo-detail-2" element={<PhotoDetail2 />} />
+              <Route path="/photo-detail-3" element={<PhotoDetail3 />} />
               <Route path="/blog" element={<Blog />} />
               {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
               <Route path="*" element={<NotFound />} />
