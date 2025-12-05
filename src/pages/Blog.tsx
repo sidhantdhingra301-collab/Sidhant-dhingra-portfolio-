@@ -7,16 +7,16 @@ const Blog = () => {
     {
       id: 1,
       image: blog1,
-      date: "20th October 2025",
-      topic: "Portfolio website design",
-      day: "Friday",
+      date: "4th December 2025",
+      topic: "Beyond the lens Blog",
+      day: "Thursday",
     },
     {
       id: 2,
       image: blog2,
       date: "19th October 2025",
       topic: "Portfolio website design",
-      day: "Thursday",
+      day: "Friday",
     },
   ];
 
