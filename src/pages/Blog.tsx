@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import blog1 from "@/assets/blog-1.jpeg";
 import blog2 from "@/assets/blog-2.jpeg";
 
@@ -54,9 +55,18 @@ const Blog = () => {
                 <p className="text-sm text-muted-foreground mb-4">
                   <span className="font-medium">Day:</span> {blog.day}
                 </p>
-                <button className="px-6 py-2 bg-primary/10 text-primary rounded-lg hover:bg-primary hover:text-primary-foreground transition-colors">
-                  View more
-                </button>
+                {blog.id === 1 ? (
+                  <Link
+                    to="/blog/1"
+                    className="px-6 py-2 bg-primary/10 text-primary rounded-lg hover:bg-primary hover:text-primary-foreground transition-colors inline-block"
+                  >
+                    View more
+                  </Link>
+                ) : (
+                  <button className="px-6 py-2 bg-primary/10 text-primary rounded-lg hover:bg-primary hover:text-primary-foreground transition-colors">
+                    View more
+                  </button>
+                )}
               </div>
             </div>
           ))}
