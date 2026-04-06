@@ -17,6 +17,9 @@ import PhotoDetail2 from "./pages/PhotoDetail2";
 import PhotoDetail3 from "./pages/PhotoDetail3";
 import Blog from "./pages/Blog";
 import BlogDetail1 from "./pages/BlogDetail1";
+import BlogDetail2 from "./pages/BlogDetail2";
+import BlogDetail3 from "./pages/BlogDetail3";
+import BlogDetail4 from "./pages/BlogDetail4";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -41,6 +44,9 @@ const App = () => (
               <Route path="/photo-detail-3" element={<PhotoDetail3 />} />
               <Route path="/blog" element={<Blog />} />
               <Route path="/blog/1" element={<BlogDetail1 />} />
+              <Route path="/blog/2" element={<BlogDetail2 />} />
+              <Route path="/blog/3" element={<BlogDetail3 />} />
+              <Route path="/blog/4" element={<BlogDetail4 />} />
               {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
               <Route path="*" element={<NotFound />} />
             </Routes>
