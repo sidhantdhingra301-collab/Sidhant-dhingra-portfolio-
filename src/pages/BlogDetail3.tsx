@@ -20,7 +20,7 @@ const BlogDetail3 = () => {
         </div>
 
         <p className="text-center text-muted-foreground mt-6 text-sm">
-          If the PDF does not load, please ensure the file has been added to the project.
+         
         </p>
       </div>
     </div>
